@@ -1,0 +1,741 @@
+
+@import normalize
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i')
+@import url('https://fonts.googleapis.com/css?family=Yellowtail')
+@import url('https://fonts.googleapis.com/css?family=Damion')
+
+.container
+	max-width: 1230px
+	padding: 0 30px
+	margin: 0 auto
+
+.btn
+	border: none
+	background-color: #ffb18b
+	color: #fff
+	font-family: "PT Serif"
+	font-size: 16px
+	font-weight: 700
+	text-transform: uppercase
+	letter-spacing: 1.6px
+	display: -webkit-inline-flex
+	display: -moz-inline-flex
+	display: -ms-inline-flex
+	display: -o-inline-flex
+	display: inline-flex
+	justify-content: center
+	align-items: center
+
+.read-more
+	position: absolute
+	bottom: -75px
+	display: block
+	width: 120px
+	height: 120px
+	border-radius: 50%
+	line-height: 80px
+
+
+h1.main__title
+	color: #fff
+	font-family: "PT Serif"
+	font-size: 60px
+	font-weight: 700
+	line-height: 60px
+	text-transform: uppercase
+	letter-spacing: 6px
+	&:before, &:after
+		content: ''
+		display: block
+		width: 111px
+		height: 2px
+		background-color: #ffffff
+	&:before
+		margin: 0 auto 50px
+	&:after
+		margin: 50px auto 60px
+
+.section-title
+	padding-top: 4px
+	margin: 0 auto
+	text-align: center
+	max-width: 350px
+	min-width: 251px
+	min-height: 97px
+	background: url(../img/section-title-bg.png) no-repeat center top
+	span
+		color: #808369
+		font-family: "PT Serif"
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 1.4px
+	h2
+		color: #434343
+		font-family: "PT Serif"
+		font-size: 35px
+		line-height: 43px
+		font-weight: 700
+		&:after
+			content: ''
+			display: block
+			margin: 42px auto 0
+			width: 111px
+			height: 2px
+			background-color: #a7a99a
+
+
+body
+	font-family: "PT Serif", serif
+	font-size: 14px
+
+.header
+	&__bottom
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		padding: 51px 0 11px
+		.contacts, .logo, .cart
+			width: 273px
+		.contacts, .cart
+			margin-top: 9px
+			&__link
+				color: #808369
+				font-family: "PT Serif"
+				font-size: 14px
+				font-weight: 700
+				line-height: 20px
+				text-transform: uppercase
+				letter-spacing: 1.4px
+		.contacts-wrap
+			text-align: right
+			&__icon
+				display: inline-block
+				vertical-align: middle
+				transform: rotate(90deg)
+		.cart
+			&__link
+				display: block
+			&__icon
+				margin-right: 5px
+				color: #8b8d76
+				font-size: 12px
+
+.nav
+	text-align: center
+	background-color: #f3f1ec
+	padding: 23px 0
+	&-menu
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		&__item
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			white-space: nowrapa
+			&:before
+				content: ''
+				display: inline-block
+				vertical-align: middle
+				margin: 0 25px
+				width: 1px
+				height: 16px
+				background-color: #d0ceca
+			&:first-child:before
+				display: none
+		&__link
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 700
+			text-transform: uppercase
+			letter-spacing: 1.4px
+		&__link.home
+			font-size: 11px
+			color: #434343
+
+.main
+	overflow: hidden
+	position: relative
+	height: 773px
+	background-image: url(../img/main-bg.jpg)
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	justify-content: center
+	text-align: center
+	&__content
+		max-width: 800px
+		.btn
+			width: 273px
+			height: 72px
+
+.welcome
+	text-align: center
+	padding: 106px 0 103px
+	.btn
+		margin-top: 66px
+		width: 243px
+		height: 60px
+	&-list
+		margin-top: 60px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		padding: 0 -30px
+		&__item
+			position: relative
+			overflow: hidden
+			margin: 0 15px
+			width: 370px
+			height: 472px
+			text-align: center
+		&__img
+			width: 100%
+			height: auto
+		&__title
+			position: absolute
+			top: 50%
+			margin-top: -17px
+			left: 50%
+			margin-left: -75px
+			width: 150px
+			text-align: center
+			color: #fff
+			font-family: Yellowtail
+			font-size: 45px
+			font-weight: 400
+			line-height: 50px
+		&__link
+
+.story
+	padding-top: 110px
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	// height: 696px
+	&__content
+		margin-bottom: -170px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		// height: 541px
+		margin-top: 62px
+		overflow: hidden
+		.btn
+			margin-top: 60px
+			width: 243px
+			height: 60px
+	&__img, &__descr
+		width: 50%
+	&__img
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+	&__descr
+		background-color: #fff
+		padding: 90px 70px 70px 85px
+	&__title
+		color: #808369
+		font-family: "PT Serif"
+		font-size: 22px
+		font-weight: 700
+		line-height: 33px
+	&__text
+		margin-top: 30px
+		color: #929292
+		font-family: "PT Serif"
+		font-size: 14px
+		font-weight: 400
+		line-height: 24px
+		span
+			color: #434343
+			font-family: "PT Serif"
+			font-size: 28px
+			font-weight: 700
+
+.menu
+	text-align: center
+	padding: 277px 0 120px
+	background-color: #f3f1ec
+	&__title
+		color: #808369
+		font-family: "PT Serif"
+		font-size: 20px
+		font-weight: 700
+		line-height: 35px
+	.btn
+		margin-top: 55px
+		width: 242px
+		height: 60px
+	&-list
+		margin: 60px 0 55px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		&__item
+			overflow: hidden
+			position: relative
+			width: 269px
+			height: 270px
+			background-color: #fff
+			text-align: center
+		&__img
+			padding: 15px
+			overflow: hidden
+			img
+				width: 100%
+		&__title
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 16px
+			font-weight: 700
+			text-transform: uppercase
+			letter-spacing: 1.6px
+			padding-top: 25px
+			background: url(../img/menu-title-bg.png) no-repeat center top
+		&__link
+			position: absolute
+			bottom: 0
+			display: inline-block
+			margin-left: -18px
+			margin-bottom: -18px
+			width: 36px
+			height: 36px
+			line-height: 30px
+			border-radius: 50%
+			background-color: #f3f1ec
+			color: #a6a895
+
+.event
+	padding: 110px 0
+	.btn
+		width: 242px
+		height: 60px
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		margin: 10px auto 0
+	&-list
+		margin-top: 62px
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		&__item
+			width: 30%
+			flex-shrink: 0
+		&__item.left
+			padding-right: 35px
+			text-align: right
+			.event-list__title::after
+				margin: 20px 0 30px auto
+			.event-list__order
+				margin-left: 20px
+		&__item.right
+			padding-left: 35px
+			.event-list__title::after
+				margin: 20px auto 30px 0
+			.event-list__order
+				margin-right: 20px
+		&__img
+			width: 40%
+			flex: none /*не работает*/
+			overflow: hidden
+			border-radius: 50%
+			img
+				width: 100%
+		&__wrap
+			display: -webkit-flex
+			display: -ms-flex
+			display: flex
+			margin-bottom: 50px
+		&__title
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 18px
+			line-height: 18px
+			font-weight: 700
+			text-transform: uppercase
+			letter-spacing: 1.8px
+			&:after
+				content: ''
+				display: block
+				width: 111px
+				height: 2px
+				background-color: #a7a99a
+		&__text
+			color: #929292
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 400
+			line-height: 24px
+		&__order
+			color: #eae7e0
+			font-family: "PT Serif"
+			font-size: 40px
+			line-height: 40px
+			font-weight: 700
+			text-transform: uppercase
+			position: relative
+			top: -4px
+
+.request
+	position: relative
+	z-index: 1
+	height: 696px
+	background-position: center
+	background-size: cover
+	display: -webkit-flex
+	display: -ms-flex
+	display: flex
+	align-items: center
+	text-align: center
+	&:after
+		content: ''
+		display: block
+		position: absolute
+		z-index: -1
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+		background-color: rgba(35,35,35,.5)
+	.btn
+		margin-top: 60px
+		width: 273px
+		height: 72px
+	.section-title
+		max-width: 650px
+		background: url(../img/section-title-request-bg.png) no-repeat center top
+		span
+			color: #fff
+		h2
+			color: #fff
+			font-size: 50px
+			line-height: 65px
+			&::after
+				background-color: #fff
+
+.about
+	padding: 110px 0
+	background-color: #f3f1ec
+	&-slider
+		position: relative
+		background-color: #fff
+		margin-top: 107px
+		padding: 85px 0 25px
+		text-align: center
+		.btn-right, .btn-left
+			position: absolute
+			top: 50%
+			margin-top: -30px
+			display: block
+			width: 60px
+			height: 60px
+			line-height: 60px
+			color: #808369
+			border-radius: 50%
+			background-color: #f3f1ec
+		.btn-right
+			right: -30px
+		.btn-left
+			left: -30px
+		.quote-text
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 20px
+			font-weight: 700
+			line-height: 33px
+		.quote-author
+			padding-top: 25px
+			margin-top: 45px
+			background: url(../img/quote-author-bg.png) no-repeat center top
+			color: #929292
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 400
+		&__img
+			position: absolute
+			left: 50%
+			margin-left: -52.5px
+			top: -52.5px
+			width: 105px
+			height: 105px
+			border-radius: 50%
+			border: 10px solid #f3f1ec
+			overflow: hidden
+			img
+				width: 100%
+
+.articles
+	text-align: center
+	padding: 110px 0
+	.btn
+		margin-top: 10px
+		width: 223px
+		height: 60px
+	&-list
+		margin-top: 60px
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		justify-content: space-between
+		&__item
+			width: 32%
+		&__img
+			overflow: hidden
+			img
+				width: 100%
+		&__footer
+			padding: 35px 30px
+		&__date
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 700
+			text-transform: uppercase
+			letter-spacing: 1.4px
+		&__title
+			color: #434343
+			font-family: "PT Serif"
+			font-size: 22px
+			font-weight: 700
+			line-height: 33px
+			&::after
+				content: ''
+				display: block
+				margin: 20px auto 0
+				width: 111px
+				height: 2px
+				background-color: #a7a99a
+
+.services
+	.story__services
+		margin-top: 0
+		margin-bottom: 35px
+		position: relative
+		&:before
+			content: '\201C'
+			display: block
+			position: absolute
+			top: -20px
+			left: -13px
+			color: rgba(128,131,105,.2)
+			font-size: 180px
+			line-height: 180px
+			font-weight: 400
+	&__title
+		color: #808369
+		font-family: "PT Serif"
+		font-size: 20px
+		font-weight: 700
+		line-height: 35px
+		&::before
+			content: ""
+			display: block
+			margin-bottom: 35px
+			width: 111px
+			height: 2px
+			background-color: #a7a99a
+		span
+			color: #929292
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 400
+			line-height: 24px
+
+.team
+	padding: 277px 0 110px
+	background-color: #f3f1ec
+	&-list
+		margin-top: 62px
+		text-align: center
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		justify-content: space-between
+		&__img
+			width: 243px
+			height: 243px
+			border-radius: 50%
+			overflow: hidden
+			margin-bottom: 45px
+			img
+				width: 100%
+		&__author
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 20px
+			font-weight: 700
+			line-height: 35px
+		&__job
+			color: #929292
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 400
+			line-height: 24px
+
+.projects
+	padding: 110px 0
+	&-images
+		margin-top: 60px
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		justify-content: space-between
+		&__left
+			display: -webkit-flex
+			display: -ms-flex
+			display: flex
+			flex-wrap: wrap
+			width: 69%
+			justify-content: space-between
+		&__right
+			width: 29%
+			.projects-images__img
+				width: 100%
+		&__img
+			width: 49%
+			overflow: hidden
+			img
+				width: 100%
+
+.feadback
+	position: relative
+	padding: 110px 0
+	background-color: #f3f1ec
+	.top-link
+		position: absolute
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		align-items: center
+		justify-content: center
+		text-align: center
+		bottom: -71px
+		left: 50%
+		margin-left: -58px
+		width: 116px
+		height: 116px
+		border-radius: 50%
+		background-color: #fff
+		span
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 12px
+			font-weight: 700
+			line-height: 20px
+			text-transform: uppercase
+			letter-spacing: 1.2px
+		i
+			display: block
+	&-form
+		margin: 60px auto 0
+		max-width: 770px
+		text-align: center
+		&__wrap
+			display: -webkit-flex
+			display: -ms-flex
+			display: flex
+			margin: 0 -15px
+		.btn
+			margin-top: 60px
+			width: 229px
+			height: 60px
+	&-formfield, &-textarea
+		border: none
+		padding: 27px 42px
+		color: #808369
+		font-family: "PT Serif"
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 1.4px
+	&-formfield
+		width: 50%
+		margin: 0 15px
+	&-textarea
+		width: 100%
+		height: 208px
+		margin-top: 29px
+
+.footer
+	padding: 130px 0 40px
+	&-contacts
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		align-items: center
+		justify-content: space-between
+		&__phone, &__adress, .logo
+			width: 273px
+		&__phone
+			text-align: right
+			a
+				display: block
+		&__adress, &__phone a
+			color: #808369
+			font-family: "PT Serif"
+			font-size: 14px
+			font-weight: 700
+			line-height: 20px
+			text-transform: uppercase
+			letter-spacing: 1.4px
+			span
+				display: block
+	&-social
+		margin: 69px 0 55px
+		text-align: center
+		.tw:hover
+			background-color: #55acee
+		.fb:hover
+			background-color: #3b5999
+		.tr:hover
+			background-color: #34465d
+		.inst:hover
+			background-color: #e4405f
+		&__link
+			display: inline-block
+			margin: 0 3px
+			width: 42px
+			height: 42px
+			line-height: 42px
+			font-size: 16px
+			color: #fff
+			background-color: #a7a99a
+			border-radius: 50%
+	&-copywright
+		text-align: center
+		color: #929292
+		font-family: "PT Serif"
+		font-size: 14px
+		font-weight: 400
+		line-height: 24px
+		a
+			color: inherit
+			text-decoration: underline
+			&:hover
+				text-decoration: none
